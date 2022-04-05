@@ -8,7 +8,10 @@ on:
 
 jobs:
   build:
-  
+    # Sets a custom name for the builds for each job configuration.
+    name: Build for ${{ matrix.os }}
+    
+    #Creates a build matrix which allows for multiple job configurations with the same steps.
     strategy:
       matrix:
         os: [windows-latest, ubuntu-latest]
@@ -34,6 +37,6 @@ jobs:
       uses: actions/upload-artifact@v3.0.0
       with:
         # Artifact name
-        name: GH-Actions-Art-Test
+        name: GH-Actions-Art-Test for ${{ matrix.os }}
         # A file, directory or wildcard pattern that describes what to upload
-        path: GH-Actions-Art-Test/bin/debug/net6.0/GH-Actions-Art-Test.exe
+        path: GH-Actions-Art-Test/bin/debug/net6.0
