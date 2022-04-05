@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GH-Actions-Art-Test", "GH-Actions-Art-Test\GH-Actions-Art-Test.csproj", "{B2A43599-0BE2-41C2-9DD5-FFC43A2BC31D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2A43599-0BE2-41C2-9DD5-FFC43A2BC31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A43599-0BE2-41C2-9DD5-FFC43A2BC31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A43599-0BE2-41C2-9DD5-FFC43A2BC31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A43599-0BE2-41C2-9DD5-FFC43A2BC31D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {658D7B8E-5D4B-40E2-9635-54A838749F57}
+	EndGlobalSection
+EndGlobal
