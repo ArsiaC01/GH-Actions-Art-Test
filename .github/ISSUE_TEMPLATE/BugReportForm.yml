@@ -24,7 +24,8 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - v1.2.0 *(Latest)*
+        - v1.2.0 (Latest)
+        - v1.1.0 (Unsupported please update to v1.2.0)
         - Latest Pre-release
     validations:
       required: true
@@ -36,7 +37,6 @@ body:
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
       
----
   - type: checkboxes
     id: terms
     attributes:
