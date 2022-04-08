@@ -40,8 +40,8 @@ body:
   - type: checkboxes
     id: isSchool
     attributes:
-      label: ""
-      description: ""
+      label: " "
+      description: " "
       
       options:
         label: Check box if this is a school computer
