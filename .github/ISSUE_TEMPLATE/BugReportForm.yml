@@ -18,17 +18,37 @@ body:
     validations:
       required: true
   
+  #-- Enviroment Details start here
+    - type: markdown
+    attributes:
+      value: |
+        "##Enviroment Details"
+  
   - type: dropdown
     id: version
     attributes:
       label: Version
       description: What version of our software are you running?
       options:
+        - Latest Pre-release
         - v1.2.0 (Latest)
         - v1.1.0 (Unsupported please update to v1.2.0)
-        - Latest Pre-release
+        - v1.0.0 (Unsupported please update to v1.2.0)
     validations:
       required: true
+    
+  - type: checkboxes
+    id: isSchool
+    attributes:
+      label: 
+      description: 
+      
+      options:
+        label: Check box if this is a school computer
+        required: false
+
+
+  #-- Enviroment details end here
 
   - type: textarea
     id: logs
