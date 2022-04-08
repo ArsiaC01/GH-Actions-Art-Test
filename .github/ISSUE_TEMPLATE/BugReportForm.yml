@@ -15,8 +15,8 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  #-- Enviroment Details start here
-    - type: markdown
+
+  - type: markdown
     attributes:
       value: |
         "##Enviroment Details"
@@ -40,7 +40,8 @@ body:
       options:
         label: Check box if this is a school computer
         required: false
-  #-- Enviroment details end here
+
+
   - type: textarea
     id: logs
     attributes:
