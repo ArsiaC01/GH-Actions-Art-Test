@@ -1,9 +1,8 @@
-name: Bug Report
-description: File a bug report
+name: Issue Form Bug Report
+description: "Report a bug or issue with the repository"
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
@@ -32,8 +31,8 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - v1.2.0 *(Latest)*
+        - 1.0.3 (Edge)v
     validations:
       required: true
   - type: dropdown
