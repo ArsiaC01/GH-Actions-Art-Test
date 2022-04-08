@@ -8,15 +8,19 @@ body:
     attributes:
       value: |
         Please complete the form below to report an issue with the repository.
-        
-
-  
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Explain your issue
+      description: Please include what the experienced and expected behavior is. Be precise in your description and give as much detail as possible.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
   #-- Enviroment Details start here
     - type: markdown
     attributes:
       value: |
         "##Enviroment Details"
-  
   - type: dropdown
     id: version
     attributes:
@@ -29,27 +33,21 @@ body:
         - v1.0.0 (Unsupported please update to v1.2.0)
     validations:
       required: true
-    
   - type: checkboxes
     id: isSchool
     attributes:
       label: " "
       description: " "
-      
       options:
         label: Check box if this is a school computer
         required: false
-
-
   #-- Enviroment details end here
-
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-      
+      render: shell 
   - type: checkboxes
     id: terms
     attributes:
