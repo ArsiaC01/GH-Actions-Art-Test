@@ -9,14 +9,7 @@ body:
       value: |
         Please complete the form below to report an issue with the repository.
         
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: Explain your issue
-      description: Please include what the experienced and expected behavior is. Be precise in your description and give as much detail as possible.
-      placeholder: Tell us what you see!
-    validations:
-      required: true
+
   
   #-- Enviroment Details start here
     - type: markdown
