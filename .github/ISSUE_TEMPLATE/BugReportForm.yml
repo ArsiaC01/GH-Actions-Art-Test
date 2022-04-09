@@ -1,7 +1,7 @@
 name: Issue Form Bug Report
 description: "Report a bug or issue with the repository"
 title: "[Bug]: "
-labels: ["bug"]
+labels: ["bug", "sdas"]
 body:
 
   - type: textarea
