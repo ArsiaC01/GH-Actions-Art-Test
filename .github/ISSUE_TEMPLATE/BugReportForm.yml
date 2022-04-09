@@ -3,10 +3,7 @@ description: "Report a bug or issue with the repository"
 title: "[Bug]: "
 labels: ["bug"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Please complete the form below to report an issue with the repository.
+
   - type: textarea
     id: what-happened
     attributes:
