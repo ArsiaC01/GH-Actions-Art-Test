@@ -2,6 +2,8 @@ name: IssueGGG
 description: Report a bug or issue with the repository
 title: "[Bug]: "
 labels: ["bug", "triage"]
+assignees:
+  -octocat
 body:
 
   - type: textarea
