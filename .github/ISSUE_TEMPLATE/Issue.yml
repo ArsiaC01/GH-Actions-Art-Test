@@ -9,7 +9,7 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: Explain your s
+      label: Explain your issue
       description: Please include what the experienced and expected behavior is. Be precise in your description and give as much detail as possible.
       placeholder: Tell us what you see!
     validations:
