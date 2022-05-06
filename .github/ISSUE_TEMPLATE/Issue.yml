@@ -19,7 +19,7 @@ body:
     id: environmentdetails
     attributes:
       value: |
-        ##Environment Details
+        "##Environment Details"
   - type: textarea
     id: what-happened
     attributes:
