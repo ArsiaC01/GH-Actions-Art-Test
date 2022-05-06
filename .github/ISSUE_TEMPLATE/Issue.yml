@@ -34,12 +34,13 @@ body:
     validations:
       required: true
   - type: checkboxes
-    label: Check the box if this is a school computer.
     id: isSchoolComputer
+    label: Check the box if this is a school computer.
     attributes:
       description: 
       options:
         - label: Check box if this is a school computer / computer with restricted permissions.
+          required: false
   
   
   - type: checkboxes
