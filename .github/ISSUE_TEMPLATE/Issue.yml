@@ -17,7 +17,9 @@ body:
       required: true
   - type: markdown
     id: environmentdetails
-    value: "Test"
+    attributes:
+      value: |
+        ##Environment Details
   - type: textarea
     id: what-happened
     attributes:
