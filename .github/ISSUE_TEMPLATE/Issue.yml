@@ -22,7 +22,7 @@ body:
     id: reproducesteps
     attributes:
       label: Steps to Reproduce
-      description: *How you came across the issue and what exactly you did to make this bug happen. Please be detailed.*
+      description: How you came across the issue and what exactly you did to make this bug happen. Please be detailed.
       placeholder: When entering slideshow mode, the memory consumption...
     validations:
       required: true
