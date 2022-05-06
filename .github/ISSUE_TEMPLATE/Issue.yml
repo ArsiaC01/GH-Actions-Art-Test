@@ -34,17 +34,14 @@ body:
     validations:
       required: true
   - type: checkboxes
+    label: Check the box if this is a school computer.
     id: isSchoolComputer
     attributes:
       description: 
       options:
         - label: Check box if this is a school computer / computer with restricted permissions.
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+  
+  
   - type: checkboxes
     id: terms
     attributes:
