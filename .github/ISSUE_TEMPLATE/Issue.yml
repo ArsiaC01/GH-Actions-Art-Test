@@ -35,9 +35,9 @@ body:
     id: version
     attributes:
       label: Software Version
-      description: What version of the program are you running? *Please ensure you have updated to the latest release `v1.2.3` in case your problem has already been fixed.*
+      description: What version of the program are you running? *If not running the bleeding edge build, please ensure you have updated to the latest [release](https://github.com/awesomegamergame/SchoolWallpaperChanger/releases) in case your problem has already been fixed.*
       options:
-        - 1.2.3 (Latest Supported)
+        - 1.2.3 (Latest)
         - 1.3.0 (Bleeding Edge)
     validations:
       required: true
