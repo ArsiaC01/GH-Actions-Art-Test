@@ -35,7 +35,6 @@ body:
       required: true
   - type: checkboxes
     id: isSchoolComputer
-    label: Check the box if this is a school computer.
     attributes:
       description: 
       options:
