@@ -1,7 +1,7 @@
 name: IssueTempForm
 description: Report a bug or issue with the repository
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["bug", ""]
 assignees:
   - ArsiaC01
 
