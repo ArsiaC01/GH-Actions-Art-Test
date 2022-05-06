@@ -14,7 +14,7 @@ body:
     id: explainissue
     attributes:
       label: Explain your issue
-      description: Please include what the experienced and expected behavior is. *Be precise in your description and give as much detail as possible.*
+      description: Please include what the experienced and expected behavior is. You may attach screenshots. *Be precise in your description and give as much detail as possible.*
       placeholder: When starting up the computer, I would ordinarily expect...
     validations:
       required: true
