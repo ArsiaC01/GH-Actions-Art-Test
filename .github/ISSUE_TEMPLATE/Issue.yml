@@ -36,11 +36,10 @@ body:
   - type: checkboxes
     id: isSchoolComputer
     attributes:
-      description: 
+      label: Check the box if this is a school computer
       options:
         - label: Check box if this is a school computer / computer with restricted permissions.
           required: false
-  
   
   - type: checkboxes
     id: terms
