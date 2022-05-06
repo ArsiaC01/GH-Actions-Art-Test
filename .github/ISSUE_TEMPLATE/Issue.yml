@@ -15,7 +15,15 @@ body:
     attributes:
       label: Explain your issue
       description: Please include what the experienced and expected behavior is. *Be precise in your description and give as much detail as possible.*
-      placeholder: Tell us what you see!
+      placeholder: When starting up the computer, I would ordinarily expect...
+    validations:
+      required: true
+  - type: textarea
+    id: reproducesteps
+    attributes:
+      label: Steps to Reproduce
+      description: *How you came across the issue and what exactly you did to make this bug happen. Please be detailed.*
+      placeholder: When entering slideshow mode, the memory consumption...
     validations:
       required: true
 
