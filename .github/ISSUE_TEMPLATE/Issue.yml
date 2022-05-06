@@ -16,7 +16,7 @@ body:
     validations:
       required: true
   - type: markdown
-    value: "##Environment Details"
+    value: "Test"
   - type: textarea
     id: what-happened
     attributes:
