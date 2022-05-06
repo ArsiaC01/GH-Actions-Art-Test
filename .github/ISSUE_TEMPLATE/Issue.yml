@@ -3,19 +3,18 @@ description: Report a bug or issue with the repository
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
-  - octocat
+  - ArsiaC01
+
 body:
 
   - type: textarea
     id: explainissue
     attributes:
       label: Explain your issue
-      description: Please include what the experienced and expected behavior is. Be precise in your description and give as much detail as possible.
+      description: Please include what the experienced and expected behavior is. *Be precise in your description and give as much detail as possible.*
       placeholder: Tell us what you see!
     validations:
-      required: true  
-      
-      
+      required: true
   - type: markdown
     attributes:
       value: |
